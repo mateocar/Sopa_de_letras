@@ -58,7 +58,7 @@ SOPA_DE_LETRAS/
 ## 📄 Requisitos Previos
 
 - Python 3.10 o superior instalado.
-- Git instalado (opcional para clonar el repositorio).
+- Git instalado.
 
 ---
 
@@ -104,6 +104,6 @@ POST
 json
     {
     "palabras": ["gato", "perro", "jaguar"],
-    "matriz": null
+    "matriz": ""
     }
 Si no se incluye matriz, se genera una automáticamente y las palabras se insertan en ella.
